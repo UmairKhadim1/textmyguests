@@ -1,0 +1,11 @@
+{
+    "America/Puerto_Rico":"(GMT-04:00) Atlantic Standard Time",
+    "America/New_York": "(GMT-05:00) Eastern Time",
+    "America/Chicago": "(GMT-06:00) Central Time",
+    "America/Denver": "(GMT-07:00) Mountain Time",
+    "America/Phoenix": "(GMT-07:00) Mountain Time - (No DST)",
+    "America/Los_Angeles": "(GMT-08:00) Pacific Time",
+    "America/Anchorage": "(GMT-09:00) Alaska Time",
+    "America/Adak": "(GMT-09:00) Hawaii Time",
+    "Pacific/Honolulu": "(GMT-10:00) Hawaii Time - (No DST)"
+}

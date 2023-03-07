@@ -1,0 +1,58 @@
+{
+  "plugins": [
+    "@babel/plugin-proposal-class-properties",
+    "react-hot-loader/babel",
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "libraryDirectory": "es",
+        "style": "css"
+      }
+    ]
+  ],
+  "presets": ["@babel/preset-react", "@babel/preset-flow"],
+  "env": {
+    "test": {
+      "presets": [
+        [
+          "@babel/preset-env",
+          {
+            "targets": {
+              "node": "current"
+            }
+          }
+        ]
+      ],
+      "plugins": [["import", false]]
+    },
+    "development": {
+      "presets": [
+        [
+          "@babel/preset-env",
+          {
+            "modules": false,
+            "targets": {
+              "browsers": "> 2%",
+              "uglify": true
+            }
+          }
+        ]
+      ]
+    },
+    "production": {
+      "presets": [
+        [
+          "@babel/preset-env",
+          {
+            "modules": false,
+            "targets": {
+              "browsers": "> 2%",
+              "uglify": true
+            }
+          }
+        ]
+      ]
+    }
+  }
+}

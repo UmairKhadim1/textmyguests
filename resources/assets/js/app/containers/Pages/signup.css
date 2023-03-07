@@ -1,0 +1,25 @@
+.professional_toggle {
+    width: 60px !important;
+    height: 25px !important;
+}
+.professional_wrapper .ant-switch-loading-icon, .professional_wrapper .ant-switch::after {
+    height: 25px;
+    width: 25px;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+}
+
+.professional_wrapper .ant-switch-checked::after {
+    transform: translate(-100%, -50%) !important;
+}
+.danger-text {
+    color: red;
+}
+.ant-modal.ant-modal-confirm.ant-modal-confirm-confirm {
+    width: 650px !important;
+}
+@media (max-width:780px) {
+    .antd-modal.ant-modal-confirm {
+        width: 400px !important;
+    }
+}

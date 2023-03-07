@@ -1,0 +1,33 @@
+.pop-plus {
+  width: 29px;
+  height: 29px;
+  background: #d9d9d9;
+  display: flex;
+  border-radius: 30px !important;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+.popover {
+  overflow-y: 'scroll';
+  max-height: '80vh';
+}
+.active {
+  background-color: #c3d0db !important;
+  padding: 10px 13px; 
+   /* padding: 10px;  */
+  color: black;
+  caret-color: transparent;
+  cursor: pointer;
+}
+  /* cursor: pointer;*/
+/* .active h2
+:focus {
+  outline: none;
+  pointer-events: "none";
+  text-decoration: "none !important";
+  text-decoration: "line-through";
+} */
+/* .wrap-input{
+  background-color: white;
+} */

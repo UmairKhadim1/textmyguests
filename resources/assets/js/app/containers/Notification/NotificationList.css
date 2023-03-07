@@ -1,0 +1,41 @@
+.white-wrapper {
+  background-color: #fff;
+}
+.border-bottom {
+  border-bottom: 1px solid #999;
+}
+.padding-10 {
+  padding: 10px !important;
+}
+.d-flex {
+  display: flex;
+  flex-direction: row !important;
+}
+.pr-10 {
+  padding-right: 10px;
+}
+.pl-10 {
+  padding-left: 10px !important;
+}
+.row {
+  cursor: pointer;
+}
+.icon {
+  font-size: 30px;
+  color: #08c;
+}
+.d-flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.text-muted {
+  font-size: 11px;
+  color: #999;
+}
+.notification-wrapper {
+  width: 350px;
+  max-width: 370px;
+  height: 600px;
+  max-height: 650px;
+  overflow-y: auto;
+}

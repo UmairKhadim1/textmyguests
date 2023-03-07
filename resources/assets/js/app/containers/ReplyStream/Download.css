@@ -1,0 +1,18 @@
+.d-flex {
+  display: flex;
+  flex-direction: row;
+}
+.mr-1 {
+  margin-right: 10px;
+}
+
+@media (max-width: 780px) {
+  .d-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .mr-1 {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+}

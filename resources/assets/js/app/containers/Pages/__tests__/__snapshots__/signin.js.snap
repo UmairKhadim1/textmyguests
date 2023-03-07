@@ -1,0 +1,872 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login Form tests should render without crash 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <LoginBasic
+    form={
+      Object {
+        "getFieldDecorator": [Function],
+        "getFieldError": [Function],
+        "getFieldInstance": [Function],
+        "getFieldProps": [Function],
+        "getFieldValue": [Function],
+        "getFieldsError": [Function],
+        "getFieldsValue": [Function],
+        "isFieldTouched": [Function],
+        "isFieldValidating": [Function],
+        "isFieldsTouched": [Function],
+        "isFieldsValidating": [Function],
+        "isSubmitting": [Function],
+        "resetFields": [Function],
+        "setFields": [Function],
+        "setFieldsInitialValue": [Function],
+        "setFieldsValue": [Function],
+        "submit": [Function],
+        "validateFields": [Function],
+        "validateFieldsAndScroll": [Function],
+      }
+    }
+    onLogin={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <FormItem
+          className="isoInputWrapper"
+          colon={true}
+          hasFeedback={false}
+          prefixCls="ant-form"
+        >
+          <Input
+            data-__field={
+              Object {
+                "name": "email",
+              }
+            }
+            data-__meta={
+              Object {
+                "name": "email",
+                "originalProps": Object {
+                  "disabled": false,
+                  "placeholder": "Email",
+                  "prefixCls": "ant-input",
+                  "type": "text",
+                },
+                "ref": null,
+                "rules": Array [
+                  Object {
+                    "message": "Please enter a valid email address",
+                    "pattern": /\\^\\[a-z0-9\\._%\\+-\\]\\+@\\[a-z0-9\\.-\\]\\+\\\\\\.\\[a-z\\]\\{2,\\}\\$/,
+                    "required": true,
+                  },
+                ],
+                "trigger": "onChange",
+                "validate": Array [
+                  Object {
+                    "rules": Array [
+                      Object {
+                        "message": "Please enter a valid email address",
+                        "pattern": /\\^\\[a-z0-9\\._%\\+-\\]\\+@\\[a-z0-9\\.-\\]\\+\\\\\\.\\[a-z\\]\\{2,\\}\\$/,
+                        "required": true,
+                      },
+                    ],
+                    "trigger": Array [
+                      "onChange",
+                    ],
+                  },
+                ],
+                "valuePropName": "value",
+              }
+            }
+            disabled={false}
+            id="email"
+            onChange={[Function]}
+            placeholder="Email"
+            prefixCls="ant-input"
+            type="text"
+          />
+        </FormItem>,
+        <FormItem
+          className="isoInputWrapper"
+          colon={true}
+          hasFeedback={false}
+          prefixCls="ant-form"
+        >
+          <Input
+            data-__field={
+              Object {
+                "name": "password",
+              }
+            }
+            data-__meta={
+              Object {
+                "name": "password",
+                "originalProps": Object {
+                  "disabled": false,
+                  "placeholder": "Password",
+                  "prefixCls": "ant-input",
+                  "type": "password",
+                },
+                "ref": null,
+                "rules": Array [
+                  Object {
+                    "message": "This field is required",
+                    "required": true,
+                  },
+                ],
+                "trigger": "onChange",
+                "validate": Array [
+                  Object {
+                    "rules": Array [
+                      Object {
+                        "message": "This field is required",
+                        "required": true,
+                      },
+                    ],
+                    "trigger": Array [
+                      "onChange",
+                    ],
+                  },
+                ],
+                "valuePropName": "value",
+              }
+            }
+            disabled={false}
+            id="password"
+            onChange={[Function]}
+            placeholder="Password"
+            prefixCls="ant-input"
+            type="password"
+          />
+        </FormItem>,
+        <FormItem
+          colon={true}
+          hasFeedback={false}
+          prefixCls="ant-form"
+        >
+          <Button
+            block={false}
+            ghost={false}
+            htmlType="submit"
+            loading={false}
+            prefixCls="ant-btn"
+            type="primary"
+          >
+            Sign In
+          </Button>
+        </FormItem>,
+      ],
+      "className": "isoSignInForm",
+      "hideRequiredMark": false,
+      "layout": "horizontal",
+      "onSubmit": [Function],
+      "prefixCls": "ant-form",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <Input
+            data-__field={
+              Object {
+                "name": "email",
+              }
+            }
+            data-__meta={
+              Object {
+                "name": "email",
+                "originalProps": Object {
+                  "disabled": false,
+                  "placeholder": "Email",
+                  "prefixCls": "ant-input",
+                  "type": "text",
+                },
+                "ref": null,
+                "rules": Array [
+                  Object {
+                    "message": "Please enter a valid email address",
+                    "pattern": /\\^\\[a-z0-9\\._%\\+-\\]\\+@\\[a-z0-9\\.-\\]\\+\\\\\\.\\[a-z\\]\\{2,\\}\\$/,
+                    "required": true,
+                  },
+                ],
+                "trigger": "onChange",
+                "validate": Array [
+                  Object {
+                    "rules": Array [
+                      Object {
+                        "message": "Please enter a valid email address",
+                        "pattern": /\\^\\[a-z0-9\\._%\\+-\\]\\+@\\[a-z0-9\\.-\\]\\+\\\\\\.\\[a-z\\]\\{2,\\}\\$/,
+                        "required": true,
+                      },
+                    ],
+                    "trigger": Array [
+                      "onChange",
+                    ],
+                  },
+                ],
+                "valuePropName": "value",
+              }
+            }
+            disabled={false}
+            id="email"
+            onChange={[Function]}
+            placeholder="Email"
+            prefixCls="ant-input"
+            type="text"
+          />,
+          "className": "isoInputWrapper",
+          "colon": true,
+          "hasFeedback": false,
+          "prefixCls": "ant-form",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "data-__field": Object {
+              "name": "email",
+            },
+            "data-__meta": Object {
+              "name": "email",
+              "originalProps": Object {
+                "disabled": false,
+                "placeholder": "Email",
+                "prefixCls": "ant-input",
+                "type": "text",
+              },
+              "ref": null,
+              "rules": Array [
+                Object {
+                  "message": "Please enter a valid email address",
+                  "pattern": /\\^\\[a-z0-9\\._%\\+-\\]\\+@\\[a-z0-9\\.-\\]\\+\\\\\\.\\[a-z\\]\\{2,\\}\\$/,
+                  "required": true,
+                },
+              ],
+              "trigger": "onChange",
+              "validate": Array [
+                Object {
+                  "rules": Array [
+                    Object {
+                      "message": "Please enter a valid email address",
+                      "pattern": /\\^\\[a-z0-9\\._%\\+-\\]\\+@\\[a-z0-9\\.-\\]\\+\\\\\\.\\[a-z\\]\\{2,\\}\\$/,
+                      "required": true,
+                    },
+                  ],
+                  "trigger": Array [
+                    "onChange",
+                  ],
+                },
+              ],
+              "valuePropName": "value",
+            },
+            "disabled": false,
+            "id": "email",
+            "onChange": [Function],
+            "placeholder": "Email",
+            "prefixCls": "ant-input",
+            "type": "text",
+            "value": undefined,
+          },
+          "ref": [Function],
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <Input
+            data-__field={
+              Object {
+                "name": "password",
+              }
+            }
+            data-__meta={
+              Object {
+                "name": "password",
+                "originalProps": Object {
+                  "disabled": false,
+                  "placeholder": "Password",
+                  "prefixCls": "ant-input",
+                  "type": "password",
+                },
+                "ref": null,
+                "rules": Array [
+                  Object {
+                    "message": "This field is required",
+                    "required": true,
+                  },
+                ],
+                "trigger": "onChange",
+                "validate": Array [
+                  Object {
+                    "rules": Array [
+                      Object {
+                        "message": "This field is required",
+                        "required": true,
+                      },
+                    ],
+                    "trigger": Array [
+                      "onChange",
+                    ],
+                  },
+                ],
+                "valuePropName": "value",
+              }
+            }
+            disabled={false}
+            id="password"
+            onChange={[Function]}
+            placeholder="Password"
+            prefixCls="ant-input"
+            type="password"
+          />,
+          "className": "isoInputWrapper",
+          "colon": true,
+          "hasFeedback": false,
+          "prefixCls": "ant-form",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "data-__field": Object {
+              "name": "password",
+            },
+            "data-__meta": Object {
+              "name": "password",
+              "originalProps": Object {
+                "disabled": false,
+                "placeholder": "Password",
+                "prefixCls": "ant-input",
+                "type": "password",
+              },
+              "ref": null,
+              "rules": Array [
+                Object {
+                  "message": "This field is required",
+                  "required": true,
+                },
+              ],
+              "trigger": "onChange",
+              "validate": Array [
+                Object {
+                  "rules": Array [
+                    Object {
+                      "message": "This field is required",
+                      "required": true,
+                    },
+                  ],
+                  "trigger": Array [
+                    "onChange",
+                  ],
+                },
+              ],
+              "valuePropName": "value",
+            },
+            "disabled": false,
+            "id": "password",
+            "onChange": [Function],
+            "placeholder": "Password",
+            "prefixCls": "ant-input",
+            "type": "password",
+            "value": undefined,
+          },
+          "ref": [Function],
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <Button
+            block={false}
+            ghost={false}
+            htmlType="submit"
+            loading={false}
+            prefixCls="ant-btn"
+            type="primary"
+          >
+            Sign In
+          </Button>,
+          "colon": true,
+          "hasFeedback": false,
+          "prefixCls": "ant-form",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "block": false,
+            "children": "Sign In",
+            "disabled": undefined,
+            "ghost": false,
+            "htmlType": "submit",
+            "loading": false,
+            "prefixCls": "ant-btn",
+            "type": "primary",
+          },
+          "ref": null,
+          "rendered": "Sign In",
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <FormItem
+            className="isoInputWrapper"
+            colon={true}
+            hasFeedback={false}
+            prefixCls="ant-form"
+          >
+            <Input
+              data-__field={
+                Object {
+                  "name": "email",
+                }
+              }
+              data-__meta={
+                Object {
+                  "name": "email",
+                  "originalProps": Object {
+                    "disabled": false,
+                    "placeholder": "Email",
+                    "prefixCls": "ant-input",
+                    "type": "text",
+                  },
+                  "ref": null,
+                  "rules": Array [
+                    Object {
+                      "message": "Please enter a valid email address",
+                      "pattern": /\\^\\[a-z0-9\\._%\\+-\\]\\+@\\[a-z0-9\\.-\\]\\+\\\\\\.\\[a-z\\]\\{2,\\}\\$/,
+                      "required": true,
+                    },
+                  ],
+                  "trigger": "onChange",
+                  "validate": Array [
+                    Object {
+                      "rules": Array [
+                        Object {
+                          "message": "Please enter a valid email address",
+                          "pattern": /\\^\\[a-z0-9\\._%\\+-\\]\\+@\\[a-z0-9\\.-\\]\\+\\\\\\.\\[a-z\\]\\{2,\\}\\$/,
+                          "required": true,
+                        },
+                      ],
+                      "trigger": Array [
+                        "onChange",
+                      ],
+                    },
+                  ],
+                  "valuePropName": "value",
+                }
+              }
+              disabled={false}
+              id="email"
+              onChange={[Function]}
+              placeholder="Email"
+              prefixCls="ant-input"
+              type="text"
+            />
+          </FormItem>,
+          <FormItem
+            className="isoInputWrapper"
+            colon={true}
+            hasFeedback={false}
+            prefixCls="ant-form"
+          >
+            <Input
+              data-__field={
+                Object {
+                  "name": "password",
+                }
+              }
+              data-__meta={
+                Object {
+                  "name": "password",
+                  "originalProps": Object {
+                    "disabled": false,
+                    "placeholder": "Password",
+                    "prefixCls": "ant-input",
+                    "type": "password",
+                  },
+                  "ref": null,
+                  "rules": Array [
+                    Object {
+                      "message": "This field is required",
+                      "required": true,
+                    },
+                  ],
+                  "trigger": "onChange",
+                  "validate": Array [
+                    Object {
+                      "rules": Array [
+                        Object {
+                          "message": "This field is required",
+                          "required": true,
+                        },
+                      ],
+                      "trigger": Array [
+                        "onChange",
+                      ],
+                    },
+                  ],
+                  "valuePropName": "value",
+                }
+              }
+              disabled={false}
+              id="password"
+              onChange={[Function]}
+              placeholder="Password"
+              prefixCls="ant-input"
+              type="password"
+            />
+          </FormItem>,
+          <FormItem
+            colon={true}
+            hasFeedback={false}
+            prefixCls="ant-form"
+          >
+            <Button
+              block={false}
+              ghost={false}
+              htmlType="submit"
+              loading={false}
+              prefixCls="ant-btn"
+              type="primary"
+            >
+              Sign In
+            </Button>
+          </FormItem>,
+        ],
+        "className": "isoSignInForm",
+        "hideRequiredMark": false,
+        "layout": "horizontal",
+        "onSubmit": [Function],
+        "prefixCls": "ant-form",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <Input
+              data-__field={
+                Object {
+                  "name": "email",
+                }
+              }
+              data-__meta={
+                Object {
+                  "name": "email",
+                  "originalProps": Object {
+                    "disabled": false,
+                    "placeholder": "Email",
+                    "prefixCls": "ant-input",
+                    "type": "text",
+                  },
+                  "ref": null,
+                  "rules": Array [
+                    Object {
+                      "message": "Please enter a valid email address",
+                      "pattern": /\\^\\[a-z0-9\\._%\\+-\\]\\+@\\[a-z0-9\\.-\\]\\+\\\\\\.\\[a-z\\]\\{2,\\}\\$/,
+                      "required": true,
+                    },
+                  ],
+                  "trigger": "onChange",
+                  "validate": Array [
+                    Object {
+                      "rules": Array [
+                        Object {
+                          "message": "Please enter a valid email address",
+                          "pattern": /\\^\\[a-z0-9\\._%\\+-\\]\\+@\\[a-z0-9\\.-\\]\\+\\\\\\.\\[a-z\\]\\{2,\\}\\$/,
+                          "required": true,
+                        },
+                      ],
+                      "trigger": Array [
+                        "onChange",
+                      ],
+                    },
+                  ],
+                  "valuePropName": "value",
+                }
+              }
+              disabled={false}
+              id="email"
+              onChange={[Function]}
+              placeholder="Email"
+              prefixCls="ant-input"
+              type="text"
+            />,
+            "className": "isoInputWrapper",
+            "colon": true,
+            "hasFeedback": false,
+            "prefixCls": "ant-form",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "data-__field": Object {
+                "name": "email",
+              },
+              "data-__meta": Object {
+                "name": "email",
+                "originalProps": Object {
+                  "disabled": false,
+                  "placeholder": "Email",
+                  "prefixCls": "ant-input",
+                  "type": "text",
+                },
+                "ref": null,
+                "rules": Array [
+                  Object {
+                    "message": "Please enter a valid email address",
+                    "pattern": /\\^\\[a-z0-9\\._%\\+-\\]\\+@\\[a-z0-9\\.-\\]\\+\\\\\\.\\[a-z\\]\\{2,\\}\\$/,
+                    "required": true,
+                  },
+                ],
+                "trigger": "onChange",
+                "validate": Array [
+                  Object {
+                    "rules": Array [
+                      Object {
+                        "message": "Please enter a valid email address",
+                        "pattern": /\\^\\[a-z0-9\\._%\\+-\\]\\+@\\[a-z0-9\\.-\\]\\+\\\\\\.\\[a-z\\]\\{2,\\}\\$/,
+                        "required": true,
+                      },
+                    ],
+                    "trigger": Array [
+                      "onChange",
+                    ],
+                  },
+                ],
+                "valuePropName": "value",
+              },
+              "disabled": false,
+              "id": "email",
+              "onChange": [Function],
+              "placeholder": "Email",
+              "prefixCls": "ant-input",
+              "type": "text",
+              "value": undefined,
+            },
+            "ref": [Function],
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <Input
+              data-__field={
+                Object {
+                  "name": "password",
+                }
+              }
+              data-__meta={
+                Object {
+                  "name": "password",
+                  "originalProps": Object {
+                    "disabled": false,
+                    "placeholder": "Password",
+                    "prefixCls": "ant-input",
+                    "type": "password",
+                  },
+                  "ref": null,
+                  "rules": Array [
+                    Object {
+                      "message": "This field is required",
+                      "required": true,
+                    },
+                  ],
+                  "trigger": "onChange",
+                  "validate": Array [
+                    Object {
+                      "rules": Array [
+                        Object {
+                          "message": "This field is required",
+                          "required": true,
+                        },
+                      ],
+                      "trigger": Array [
+                        "onChange",
+                      ],
+                    },
+                  ],
+                  "valuePropName": "value",
+                }
+              }
+              disabled={false}
+              id="password"
+              onChange={[Function]}
+              placeholder="Password"
+              prefixCls="ant-input"
+              type="password"
+            />,
+            "className": "isoInputWrapper",
+            "colon": true,
+            "hasFeedback": false,
+            "prefixCls": "ant-form",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "data-__field": Object {
+                "name": "password",
+              },
+              "data-__meta": Object {
+                "name": "password",
+                "originalProps": Object {
+                  "disabled": false,
+                  "placeholder": "Password",
+                  "prefixCls": "ant-input",
+                  "type": "password",
+                },
+                "ref": null,
+                "rules": Array [
+                  Object {
+                    "message": "This field is required",
+                    "required": true,
+                  },
+                ],
+                "trigger": "onChange",
+                "validate": Array [
+                  Object {
+                    "rules": Array [
+                      Object {
+                        "message": "This field is required",
+                        "required": true,
+                      },
+                    ],
+                    "trigger": Array [
+                      "onChange",
+                    ],
+                  },
+                ],
+                "valuePropName": "value",
+              },
+              "disabled": false,
+              "id": "password",
+              "onChange": [Function],
+              "placeholder": "Password",
+              "prefixCls": "ant-input",
+              "type": "password",
+              "value": undefined,
+            },
+            "ref": [Function],
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <Button
+              block={false}
+              ghost={false}
+              htmlType="submit"
+              loading={false}
+              prefixCls="ant-btn"
+              type="primary"
+            >
+              Sign In
+            </Button>,
+            "colon": true,
+            "hasFeedback": false,
+            "prefixCls": "ant-form",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "block": false,
+              "children": "Sign In",
+              "disabled": undefined,
+              "ghost": false,
+              "htmlType": "submit",
+              "loading": false,
+              "prefixCls": "ant-btn",
+              "type": "primary",
+            },
+            "ref": null,
+            "rendered": "Sign In",
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

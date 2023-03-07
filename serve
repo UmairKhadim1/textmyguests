@@ -1,0 +1,3 @@
+#!/bin/bash
+# My first script
+sudo php artisan serve --port 80
